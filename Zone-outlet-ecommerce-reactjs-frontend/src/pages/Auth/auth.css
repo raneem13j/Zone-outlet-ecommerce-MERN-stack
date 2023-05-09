@@ -1,0 +1,269 @@
+/* .main footer {
+  display: none;
+} */
+
+.J-popup-wrapper {
+  height: 700px;
+  /* inset: 0;
+    position: absolute; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.all-wrapper {
+  width: 700px;
+  height: 38vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.all-wrapper-child {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b496a80;
+  display: flex;
+  overflow: hidden;
+}
+
+.jiji {
+  flex-shrink: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  color: white;
+  margin-left: 25px;
+}
+
+.jiji button {
+  background-color: #ff7d00;
+  background-image: linear-gradient(#e64a1d, #ff7d00);
+  height: 45px;
+  color: white;
+  width: 120px;
+  border: transparent;
+  font-size: 15px;
+  margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+/* .ask-login{
+    background-color: rgb(55, 168, 2);
+  }
+  
+  
+  .ask-signup{
+    background-color: rgb(255, 0, 157);
+  } */
+
+.main-f-wrapper {
+  height: 100%;
+  width: 93%;
+  position: absolute;
+  top: 100%;
+}
+
+.J-forms-wrapper {
+  width: 50%;
+  height: 120%;
+  background-color: white;
+  position: absolute;
+  top: -110%;
+  overflow: hidden;
+  transition: 0.6s all ease;
+  transform: translateX(0%);
+}
+
+.J-forms-wrapper-zih {
+  width: 50%;
+  height: 120%;
+  background-color: white;
+  position: absolute;
+  top: -110%;
+  z-index: 2;
+  overflow: hidden;
+  transition: 0.6s all ease;
+  transform: translateX(100%);
+}
+
+.left-right-wrapper {
+  height: 100%;
+  width: 200%;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  transition: 0.7s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translate(0%);
+}
+
+.left-right-wrapper-zih {
+  transition: 0.7s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translate(-50%);
+}
+.left-right-wrapper form {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #0b486a;
+}
+
+.left-right-wrapper form input {
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 7px;
+}
+
+.left-right-wrapper form button {
+  background-color: #ff7d00;
+  background-image: linear-gradient(#e64a1d, #ff7d00);
+  height: 45px;
+  color: white;
+  width: 120px;
+  border: transparent;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.svg-wrapper-1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
+}
+
+.svg-wrapper-1:nth-of-type(1) svg {
+  overflow: visible;
+  margin-top: 10%;
+  margin-left: 40%;
+  transform: rotate(343deg);
+  transition: 0.7s all ease;
+  transform-origin: 45%;
+}
+
+.svg-wrapper-1:nth-of-type(2) svg {
+  transition: 0.7s all ease;
+  margin-left: -50%;
+  transform: rotate(-360deg);
+  transform-origin: 45%;
+}
+
+.svg-wrapper-12:nth-of-type(1) svg {
+  transition: 0.7s all ease;
+  transform: rotate(193deg);
+}
+
+.svg-wrapper-12:nth-of-type(2) svg {
+  transition: 0.7s all ease;
+  transform: rotate(330deg);
+}
+
+.svg-head {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 700px;
+}
+.label-auth,
+.auth {
+  color: white;
+}
+.auth a {
+  color: #ff7d00;
+}
+.login-label {
+  color: white;
+}
+.error-message{
+  color: red;
+}
+
+/* responsive to mobile */
+/* For devices with a screen size of 600px or less */
+@media (max-width: 600px) {
+  /* Shared styles */
+  .form-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* Register page specific styles */
+  .register-wrapper {
+    height: 100vh;
+  }
+
+  .register-form {
+    width: 100%;
+    height: auto;
+    position: static;
+    top: 0;
+    transform: none;
+  }
+
+  .register-form h2 {
+    font-size: 18px;
+  }
+
+  .register-form label {
+    font-size: 16px;
+  }
+
+  .register-form input[type="text"],
+  .register-form input[type="password"] {
+    font-size: 16px;
+  }
+
+  /* Login page specific styles */
+  .login-wrapper {
+    height: 100vh;
+  }
+
+  .login-form {
+    width: 100%;
+    height: auto;
+    position: static;
+    top: 0;
+    transform: none;
+  }
+
+  .login-form h2 {
+    font-size: 18px;
+  }
+
+  .login-form label {
+    font-size: 16px;
+  }
+
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    font-size: 16px;
+  }
+}

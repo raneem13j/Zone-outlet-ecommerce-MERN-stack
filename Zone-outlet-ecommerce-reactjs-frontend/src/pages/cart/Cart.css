@@ -1,0 +1,145 @@
+* {
+    font-family: sans-serif;
+}
+.cart-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-login-link {
+    background-color: #FF7D00;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .cart-login-link:hover {
+    background-color: white;
+    color: #FF7D00;
+    border: #FF7D00 solid 2px;
+  }
+
+  .MuiTableContainer-root{
+ max-height: 470px !important;
+}
+.cart-header {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.cart-title {
+    font-size: 50px;
+    color: #0B486A;
+}
+.cart-title-b{
+    margin-top: 15%;
+    font-size: 50px;
+    color: #0B486A;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart-wrapper-div1{
+    height: 600px;
+}
+.cart-button-icon{
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+}
+.cart-Xicon{
+    color: #FF7D00;
+    font-size: 30px;
+    cursor: pointer;
+}
+.cart-table{
+    margin-bottom: 5%;
+}
+.cart-item-image img{
+    width: 100px;
+    height: 100px;
+}
+.cart-totals {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: 0 45% 5%;
+    border-radius: 5px;
+  }
+  
+  .cart-totals h1 {
+    font-size: 30px;
+    color: #0b486a;
+    margin-bottom: 10px;
+  }
+  
+  .cart-totals-first {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid #0b486a;
+  }
+  
+  .cart-totals-second-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #0b486a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+  .cart-wrapper-empty{
+    text-align: center;
+    height: 600px;
+    width:30%;
+    margin: 50px auto 50px auto;
+    
+    font-size: 30px;
+    color: #0B486A;
+    
+  }
+  .text-empty{
+    padding-top: 200px;
+  }
+
+  @media only screen and (max-width: 820px) {
+    .cart-table{
+        margin-bottom: 15%;
+    }
+    .cart-totals{
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    .cart-totals-first{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        border-radius: 5px;
+        border: 2px solid #0b486a;
+    }
+    .cart-totals-second-button{
+        padding: 10px;
+        width: 100%;
+        background-color: #0b486a;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        font-size: 19px;
+        border-radius: 5px;
+    }
+  }
+

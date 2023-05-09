@@ -1,0 +1,86 @@
+/* styles for desktop */
+.footer-container {
+  width: 1250px;
+  height: 163px;
+  margin: auto;
+  display: grid;
+  background-color: #0b486a;
+  color: white;
+  font-family: sans-serif;
+  grid-template-columns: 200px 200px 200px 350px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: normal;
+}
+.footer-container p {
+  color: white;
+}
+.Contact-footer h2{
+  border-bottom: 0.2px solid white;
+}
+.Contact-footer p{
+margin-top: 5px;
+}
+.about-footer h2{
+    border-bottom: 0.2px solid white;
+    margin-bottom: 5px;
+
+}
+.footer-logo {
+  width: 128px;
+  padding: 8px;
+}
+
+.contact-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+.facebook-social,
+.instagram-social {
+  color: white;
+}
+
+.Contact-footer {
+  text-align: center;
+}
+.question-footer h2{
+  border-bottom: 0.2px solid white;
+  font-size: 22px;
+}
+.question-footer p{
+  margin-top: 5px;
+}
+@media (max-width: 768px){
+  .footer-container {
+    height: 430px;
+    width: 96%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+  }
+}
+/* styles for mobile */
+@media (max-width: 600px) {
+  .footer-container {
+    height: 430px;
+    width: 92%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+  }
+  .about-footer{
+    margin-bottom: 10px;
+  }
+  
+  
+  .contact-socials {
+    flex-direction: row;
+margin-bottom: 10px;  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+}

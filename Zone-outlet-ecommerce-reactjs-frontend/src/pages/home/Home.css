@@ -1,0 +1,551 @@
+.swal2-popup.custom-style {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .swal2-title.custom-style {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0B486A;
+    margin-bottom: 20px;
+  }
+  .swal2-confirm.custom-style {
+    background-color: #0B486A !important;
+    color: #fff;
+    box-shadow: none !important;
+  }
+  .swal2-confirm.custom-style:hover {
+    background-color: #FF7D00 !important;
+  }
+.home-section{
+    width: 1250px;
+    margin: auto;
+}
+.sale-section{
+    display: flex;
+    background-color: #e8e5e5 ;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-sale-section img{
+    width: 500px;
+     margin: 20px;
+    
+}
+.line-sale-section{
+    text-align: center;
+}
+.line-sale-section .line{
+   color: #FF7D00;
+}
+.line-sale-section h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.line-sale-section .sale-link{
+    color: white;
+    background-color: #FF7D00;
+    padding:5px 30px 5px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.line-category-section{
+    margin-top: 40px;
+    color:#0B486A;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.line-category-section:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 13%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+}
+.line-latest-section{
+    margin-top: 30px;
+    color:#0B486A;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.line-latest-section:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 15%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+}
+.category-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img1{
+    border-radius: 50%;
+    width:260px;
+    margin: 20px;
+}
+.img2{
+    border-radius: 50%;
+    width:275px;
+    margin: 20px;
+}
+.img3{
+    border-radius: 50%;
+    width:270px;
+    margin: 20px;
+}
+.category1-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.link1-category{
+    text-decoration: none;
+    color: #0B486A;
+    font-size: 25px;
+   margin-left:100px;
+   margin-right: 100px;
+    
+}
+.link1-category:hover{
+    color:#FF7D00;
+
+    
+}
+.list-category-section{
+    display: none;
+}
+.category-button{
+    border: none;
+    color: white;
+    background-color: white;
+   
+}
+
+.products-section{
+   padding-left: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 5px;
+   text-align: center;
+}
+
+.product-card{
+    margin-top: 50px;
+   
+}
+.product-card .product-link{
+    text-decoration: none;
+}
+.MuiTypography-h5{
+    color:#0B486A
+
+}
+.MuiTypography-h5:hover{
+    color:#FF7D00
+}
+
+.pagination{
+    margin: 10px;
+    padding-left: 40px;
+}
+.addto-cart{
+    text-decoration: none !important;
+    color:#FF7D00 !important;
+    font-size: 15px !important;
+}
+.original-price3 {
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-right: 8px;
+   
+  }
+  
+  .original-price3::after {
+    content: " ";
+  }
+.raneem{
+  display: flex;
+   justify-content:space-evenly;
+}
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b486a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .timer-h2 {
+    margin-top: 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .timer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  
+  .timer-main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff7d00;
+    background-image: linear-gradient(#e64a1d, #ff7d00);
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+  }
+  
+  .two-numbers {
+    font-size: 4rem;
+  }
+ .timer-p {
+    font-size: 25px;
+ }
+
+@media (max-width: 768px){
+    .home-section{
+        width: 730px;
+        margin: auto;
+    }
+    .sale-section{
+        width: 700px;
+        height: 250px;
+        display: flex;
+        background-color: #e8e5e5 ;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    }
+    .img-sale-section img{
+        width: 330px;
+        height: 150px;
+         margin: 10px;
+        
+    }
+    .line-sale-section h2{
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+    .line-category-section{
+        width: 700px;
+        margin-top: 30px;
+        color:#0B486A;
+        margin-right: 9px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .line-category-section:after {
+        width: 700px;
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 20%; /* Change this to whatever width you want. */
+        padding-top: 5px; /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+    }
+    .line-latest-section{
+        width: 700px;
+        margin-top: 20px;
+        color:#0B486A;
+        margin-left: 3px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .line-latest-section:after {
+        width: 700px;
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 25%; /* Change this to whatever width you want. */
+        padding-top: 5px; /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+    }
+    .category-section{
+        width: 600px !important ;
+        margin-left: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:7%
+    }
+    .category1-section{
+        width: 550px !important ;
+        margin-left: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .img1{
+        border-radius: 50%;
+        width:162px;
+        margin: 20px;
+    }
+    .img2{
+        border-radius: 50%;
+        width:173px;
+        margin: 20px;
+    }
+    .img3{
+        border-radius: 50%;
+        width:175px;
+        margin: 20px;
+    }
+    .link1-category{
+        text-decoration: none;
+        color: #0B486A;
+        font-size: 25px;
+       margin-left:60px;
+       margin-right: 60px;
+        
+    }
+    .products-section{
+        width: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 3px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 24px;
+        
+     }
+     .timer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+      }
+      
+      .timer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #0b486a;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+        color: #fff;
+        margin-top: 30px;
+      }
+      
+      .timer-h2 {
+        margin-top: 0;
+        font-size: 2rem;
+        text-align: center;
+      }
+      
+      .timer-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        margin-top: 2rem;
+      }
+      
+      .timer-main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff7d00;
+        background-image: linear-gradient(#e64a1d, #ff7d00);
+        width: 6rem;
+        height: 6rem;
+        border-radius: 10px;
+        margin-right: 0.5rem;
+      }
+      
+      .two-numbers {
+        font-size: 3rem;
+      }
+     .timer-p {
+        font-size: 15px;
+     }
+   
+}
+     @media (max-width: 414px) {
+        .home-section{
+            width: 390px;
+            margin: auto;
+        }
+        .sale-section{
+            display: flex;
+            background-color: #e8e5e5 ;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 300px;
+            height: 200px;
+           margin-left: 40px;
+        }
+        .img-sale-section img{
+           display: none;
+        }
+        .line-sale-section h2{
+            padding-bottom: 20px;
+            font-size: 25px;
+            padding-right: 20px;
+        }
+        .line-sale-section .sale-link{
+            margin-right: 15px;
+        }
+        .line-category-section{
+            width: 350px;
+            margin-top: 20px;
+            color:#0B486A;
+            margin-right: 9px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        .line-category-section:after {
+          
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 35%; /* Change this to whatever width you want. */
+            padding-top: 5px; /* This creates some space between the element and the border. */
+            border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+        }
+        .line-latest-section{
+            width: 350px;
+            margin-top: 10px;
+            color:#0B486A;
+            margin-left: 3px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        .line-latest-section:after {
+            
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 42%; /* Change this to whatever width you want. */
+            padding-top: 5px; /* This creates some space between the element and the border. */
+            border-bottom: 2px solid #FF7D00; /* This creates the border. Replace black with whatever color you want. */
+        }
+        .products-section{
+            width: 300px;
+            display: grid;
+            grid-template-columns: 1fr ;
+            gap: 5px;
+            text-align: center;
+            justify-content: center;
+             }
+    .category-section {
+        display: none;
+    }    
+    .category1-section {
+        display: none;
+    }   
+      .list-category-section{
+        
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px 10px 40px;
+        }
+        .list-category-section .link-category{
+            text-decoration: none;
+            color:#0B486A;
+            font-size: 20px;
+            margin-bottom: 20px;
+           
+        }
+        .list-category-section .link-category:hover{
+            color:#FF7D00;
+        }
+        .lic1{
+            width:2.5rem;
+           margin: -10px;
+           padding-right: 5px;
+        }
+        .lic2{
+            width:2.1rem;
+            margin:-6px;
+            padding-right: 5px;
+        }
+        .lic3{
+            width:1.4rem;
+            margin:-2px;
+            padding-right: 5px;
+        }
+        .timer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25vh;
+            width: 350px;
+          }
+          
+          .timer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #0b486a;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+            color: #fff;
+            margin-top: 0px;
+            margin-left: 40px;
+          }
+          
+          .timer-h2 {
+            margin-top: 0;
+            font-size: 1.3rem;
+            text-align: center;
+          }
+          
+          .timer-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            margin-top: 1rem;
+          }
+          
+          .timer-main section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #ff7d00;
+            background-image: linear-gradient(#e64a1d, #ff7d00);
+            width: 4rem;
+            height: 4rem;
+            border-radius: 10px;
+            margin-right: 0rem;
+          }
+          
+          .two-numbers {
+            font-size: 2rem;
+          }
+         .timer-p {
+            font-size: 10px;
+         }
+      
+     }
